@@ -1,0 +1,14 @@
+commands 
+# create a new folder 
+> npm create vite@latest moviehunt 
+# select React , pure javascript
+# install dependencies
+> npm install
+
+> npm run dev # to run the app
+
+
+do some changes in the style sheet
+copy css, js link in bootstrap and paste 
+create folders in src folder
+# create a folder called components and pages
