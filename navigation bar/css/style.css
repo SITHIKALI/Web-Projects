@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Fira+Mono&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Lato", sans-serif;
+    background-color: #2d3436;
+}
+nav{
+    margin-top: 200px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+    transform: skew(-25deg);
+
+}
+
+nav ul li{
+    background-color: #fff;
+    float: left;
+    border-right: 1px solid #eee;
+    box-shadow: 1.95px 1.95px 2.6px rgba(0,0,0,1);
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all 0.2s linear;
+}
+
+nav ul li:hover{
+    background-color: #0984e3;
+    color: #fff;
+}
+
+a{
+    color: inherit;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    transform: skew(25deg);
+}
+
+nav ul li:first-child{
+    border-radius: 7px 0 0 7px;
+}
+
+nav ul li:last-child{
+    border-radius: 0 7px 7px 0;
+}

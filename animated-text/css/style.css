@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Fira+Mono&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family:"Lato", sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    align-items: center;
+}
+h1{
+    font-size: 200px;
+    background: #22C1C3;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(143, 191, 95, 1) 25%, rgba(77, 182, 190, 1) 50%, rgba(184, 115, 185, 1) 76%, rgba(253, 187, 45, 1) 100%);
+    color: transparent;
+    background-clip: text;
+    background-size: 500% 500%;
+    animation: sithik 3s ease infinite;
+}
+
+@keyframes sithik{
+    0%{
+        background-position: 0%;
+    }
+    50%{
+        background-position: 25% 50%;
+    }
+    70%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 100% 0%;
+    }
+}
