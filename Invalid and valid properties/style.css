@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family:"Tagesschrift", system-ui;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+h1{
+    font-weight: normal;
+    font-size: 25px;
+}
+input{
+    height: 50px;
+    width: 400px;
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid blue;
+   
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+input:invalid{
+    border-color: red;
+    animation: shake 0.5s infinite;    
+}
+input:valid{
+    border-color: green;
+}
+
+
+@keyframes shake{
+    0%{transform: translateX(4px);}
+    50%{transform: translateX(-4px);}
+    100%{transform: translateX(4px);}
+
+}
