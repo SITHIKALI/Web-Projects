@@ -11,6 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #ddd;
 }
 h1{
     margin-bottom: 20px;
@@ -34,7 +35,7 @@ background: linear-gradient(0deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1)
     position: absolute;
     height:90%;
     width:90%;
-    background-color:white;
+    background-color:#ddd;
     border-radius:50%;
     top:50%;
     left:50%;
