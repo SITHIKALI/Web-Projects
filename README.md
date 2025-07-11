@@ -12,10 +12,9 @@ Each project is neatly organized into its own folder. Click the links below to v
 1. [FD Calculator](#fd-calculator)
 2. [Invalid and Valid Properties](#invalid-and-valid-properties)
 3. [Animated Text](#animated-text)
-4. [Movie Hunt](#movie-hunt)
-5. [Spinner](#spinner)
-6. [Navigation Bar](#navigation-bar)
-7. [Sushi Man](#sushi-man)
+4. [Spinner](#spinner)
+5. [Navigation Bar](#navigation-bar)
+6. [Sushi Man](#sushi-man)
 
 ---
 
@@ -43,15 +42,6 @@ A demonstration of valid and invalid CSS properties to help understand browser r
 A project showcasing animated text effects using CSS and JavaScript.
 
 **Live Demo**: [Animated Text](https://sithikali.github.io/Web-Projects/animated-text/)
-
----
-
-### Movie Hunt
-
-**Description**:  
-An interactive website to search for movies using a public API. It showcases modern web design and JavaScript API integration.
-
-**Live Demo**: [Movie Hunt](https://sithikali.github.io/Web-Projects/moviehunt/)
 
 ---
 
