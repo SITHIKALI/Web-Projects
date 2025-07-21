@@ -6,7 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { combineLatest } from 'rxjs';
 import { ReferenceComponent } from './reference/reference.component';
-
+import { FormsModule } from '@angular/forms'; // Import FormsModule for ngModel
 // Adding Routes configuration
 const routes = [
   { path: 'home', component: HomeComponent },
@@ -29,9 +29,12 @@ const routes = [
   ],
   imports: [
     BrowserModule,
+    FormsModule, // Import FormsModule to use ngModel
     RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+}
