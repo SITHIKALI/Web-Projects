@@ -18,3 +18,4 @@ Rendering       | afterNextRender        | Runs once the next time that all comp
                 | afterEveryRender       | Runs every time all components have been rendered to the DOM.
 Destruction     | ngOnDestroy            | Runs once before the component is destroyed.
 
+
