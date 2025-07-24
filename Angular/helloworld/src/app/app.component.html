@@ -1,9 +1,9 @@
 <h1>Hello world</h1>
-<a [routerLink]="'/home'">Home</a>
+<button (click)="goHome()">Home</button>
 <br><br>
-<a [routerLink]="'/about'">About</a>
+<button (click)="goAbout()">About</button>
 <br><br>
-<a [routerLink]="'/reference'">Reference</a>
+<button (click)="goReference()">Reference</button>
 <br><br>
 <p>Two way binding</p>
 <input type="text" [(ngModel)]="data1" />
