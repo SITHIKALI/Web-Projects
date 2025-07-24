@@ -3,7 +3,12 @@
 <br><br>
 <a [routerLink]="'/about'">About</a>
 <br><br>
+<a [routerLink]="'/reference'">Reference</a>
+<br><br>
 <p>Two way binding</p>
 <input type="text" [(ngModel)]="data1" />
 <p>Input from user : {{data1}}</p>
-<router-outlet></router-outlet>
+<fieldset>
+  <legend>Navigation Result</legend>
+  <router-outlet></router-outlet>
+</fieldset>
