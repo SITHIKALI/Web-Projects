@@ -19,3 +19,4 @@ Rendering       | afterNextRender        | Runs once the next time that all comp
 Destruction     | ngOnDestroy            | Runs once before the component is destroyed.
 
 
+// see about path/Id , hooks
