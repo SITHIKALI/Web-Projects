@@ -24,8 +24,5 @@ export class AppComponent {
   goReference() {
     this.router.navigate(['/reference']);
   }
-
-  goUser() {
-    this.router.navigate(['/user']);
-  }
+  
 }
