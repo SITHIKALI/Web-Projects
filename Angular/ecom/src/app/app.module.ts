@@ -6,6 +6,9 @@ import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialUIModule } from './material-ui-module';
+import { MenuModule } from './modules/menu/menu.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,9 @@ import { AppComponent } from './app.component';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
     AngularFireAuthModule,
+    BrowserAnimationsModule,
+    MaterialUIModule,
+    MenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
