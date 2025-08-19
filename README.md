@@ -14,7 +14,7 @@ Each project is neatly organized into its own folder. Click the links below to v
 3. [Animated Text](#animated-text)
 4. [Spinner](#spinner)
 5. [Navigation Bar](#navigation-bar)
-6. [Sushi Man](#sushi-man)
+
 
 ---
 
@@ -63,14 +63,6 @@ A responsive and interactive navigation bar design for modern web applications.
 
 ---
 
-### Sushi Man
-
-**Description**:  
-A visually appealing website featuring a sushi restaurant theme, showcasing advanced CSS styling and animations.
-
-**Live Demo**: [Sushi Man](https://sithikali.github.io/Web-Projects/sushi_man/)
-
----
 
 ## Future Projects 🌟
 
